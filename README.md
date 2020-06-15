@@ -31,5 +31,5 @@
 | **git checkout [branch name]** | Used to switch from one branch to another. | git checkout v2.0 |
 | **git checkout -b [branch name]** | Creates a new branch and also switches to it. | git checkout -b v3.0 |
 | **git merge [branch name]** | Merges the specified branch’s history into the current branch. | git merge v3.0 |
-| **git push [variable name] **[branch]** | Sends the branch commits to your remote repository. | git push origin master |
-| **git pull | git pull [remote repository]** | Fetches and merges changes on the remote server to your working directory. | git pull |
+| **git push [variable name]** **[branch]** | Sends the branch commits to your remote repository. | git push origin master |
+| **git pull \| git pull [remote repository]** | Fetches and merges changes on the remote server to your working directory. | git pull |
