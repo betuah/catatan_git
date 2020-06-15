@@ -1,5 +1,5 @@
 # Catatan Git Command
-> **Desc :** This file is create for my git command notes. Guide for writing README code is [here](https://guides.github.com/features/mastering-markdown/#what) or [Here](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax) and for writing some table is [here](https://help.github.com/en/github/writing-on-github/organizing-information-with-tables). Adding some badge like  ![twitter](https://img.shields.io/twitter/follow/betuahripsn?style=social)   in your README file just [click here](https://shields.io/)
+> **Desc :** This file is create for my git command notes. Guide for writing README code is [Here](https://guides.github.com/features/mastering-markdown/#what) or [Here](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax), for writing some table is [Here](https://help.github.com/en/github/writing-on-github/organizing-information-with-tables) and adding some badge like  ![twitter](https://img.shields.io/twitter/follow/betuahripsn?style=social)   in your README file just [click here](https://shields.io/)
 
 ## About Author
 - **Name :** Betuah Anugerah
