@@ -33,4 +33,4 @@
 | **git merge [branch name]** | Merges the specified branch’s history into the current branch. | git merge v3.0 |
 | **git push [variable name]** **[branch]** | Sends the branch commits to your remote repository. | git push origin master |
 | **git pull \| git pull [remote repository]** | Fetches and merges changes on the remote server to your working directory. | git pull |
-| **git rm [file] --cached** | Stoping tracking any file from staging area |
+| **git rm [file] --cached** | Stoping tracking any file from staging area | git rm .env --cachced |
