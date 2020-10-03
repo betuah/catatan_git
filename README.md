@@ -18,6 +18,7 @@
 | **git add [file]** | Adds a file to the staging area. | git add app.js |
 | **git commit -m "[Some commit message]"** | records or snapshots the file permanently in the version history | git commit -m "Update function" |
 | **git tag v1.0 [name_of_branch]** | which will create the tag to the most recent commit of the branch | git tag v1.0 master |
+| **git tag --delete [tagname]** | Delete spesific tag | git tag --delete v1.0
 | **git diff** | Shows the file differences which are not yet staged. | git diff |
 | **git diff -staged** | Shows the differences between the files in the staging area and the latest version present. | git diff -staged |
 | **git reset [file name or path]** | This command unstages the file, but it preserves the file contents. | git reset index.html |
