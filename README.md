@@ -20,7 +20,8 @@
 | **git config --global push.followTags [true_or_false]** | Set global setting to push with tag | git config --global push.followTags true |
 | **git tag v1.0 [name_of_branch]** | which will create the tag to the most recent commit of the branch | git tags v1.0 master |
 | **git push --tags [upstream]** **[branch]** | push all local tags to remote repo | git push --tag origin master |
-| **git tag --delete [tagname]** | Delete spesific tag | git tag --delete v1.0
+| **git tag --delete [tagname]** | Delete spesific tag | git tag --delete v1.0 |
+| **git push --delete origin [tagname]** | Delete spesific remote tag | git push --delete origin v1.0 |
 | **git diff** | Shows the file differences which are not yet staged. | git diff |
 | **git diff -staged** | Shows the differences between the files in the staging area and the latest version present. | git diff -staged |
 | **git reset [file name or path]** | This command unstages the file, but it preserves the file contents. | git reset index.html |
@@ -32,6 +33,7 @@
 | **git branch** | Lists all the local branches in the current repository. | git branch |
 | **git branch [branch name]** | Creates a new branch. | git branch v1.0 |
 | **git branch -d [branch name]** | Deletes the feature branch. | git branch -d v1.0 |
+| **git push origin -d [branch name]** | Deletes the remote feature branch. | git push origin -d v1.0 |
 | **git checkout [branch name]** | Used to switch from one branch to another. | git checkout v2.0 |
 | **git checkout -b [branch name]** | Creates a new branch and also switches to it. | git checkout -b v3.0 |
 | **git merge [branch name]** | Merges the specified branch’s history into the current branch. | git merge v3.0 |
