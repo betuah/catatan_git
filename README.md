@@ -17,6 +17,7 @@
 | **git status** | Lists of all the files that have to be committed | git status |
 | **git add [file]** | Adds a file to the staging area. | git add app.js |
 | **git commit -m "[Some commit message]"** | records or snapshots the file permanently in the version history | git commit -m "Update function" |
+| **git reset --soft HEAD^** | to make my changes from commit to staged | git reset --soft HEAD^ |
 | **git config --global push.followTags [true_or_false]** | Set global setting to push with tag | git config --global push.followTags true |
 | **git tag v1.0 [name_of_branch]** | which will create the tag to the most recent commit of the branch | git tags v1.0 master |
 | **git push --tags [upstream]** **[branch]** | push all local tags to remote repo | git push --tag origin master |
